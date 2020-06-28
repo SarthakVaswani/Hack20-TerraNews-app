@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:hack20/screens/dashboard_screen.dart';
 import 'package:hack20/screens/tabbed.dart';
 import 'screens/dashboard_screen.dart';
-import 'screens/firstPage.dart';
 import 'package:flutter/widgets.dart';
 import 'screens/news_details_screen.dart';
 

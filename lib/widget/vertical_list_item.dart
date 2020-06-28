@@ -27,7 +27,8 @@ class VerticalListItem extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 7),
             child: Card(
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10)),
+                borderRadius: BorderRadius.circular(10),
+              ),
               elevation: 0,
               child: Column(
                 children: <Widget>[
