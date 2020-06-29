@@ -20,14 +20,15 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Home(),
-        routes: {
-          NewsDetailsScreen.routeName: (ctx) => NewsDetailsScreen(),
-        },
-        theme: ThemeData(
-          accentColor: Colors.black,
-          scaffoldBackgroundColor: Color(0XFF1C1987),
-        ));
+      home: Home(),
+      routes: {
+        NewsDetailsScreen.routeName: (ctx) => NewsDetailsScreen(),
+      },
+      theme: ThemeData(
+        accentColor: Colors.black,
+        scaffoldBackgroundColor: Color(0XFF1C1987),
+      ),
+    );
   }
 }
 
@@ -71,7 +72,7 @@ class _HomeState extends State<Home> {
           Icon(
             Icons.search,
             size: 27,
-          )
+          ),
         ],
         animationDuration: Duration(milliseconds: 250),
         animationCurve: Curves.easeInOutCirc,
