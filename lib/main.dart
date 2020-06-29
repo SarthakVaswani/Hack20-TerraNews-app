@@ -5,6 +5,7 @@ import 'package:hack20/screens/tabbed.dart';
 import 'screens/dashboard_screen.dart';
 import 'package:flutter/widgets.dart';
 import 'screens/news_details_screen.dart';
+import 'screens/search.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +25,7 @@ class _MyAppState extends State<MyApp> {
           NewsDetailsScreen.routeName: (ctx) => NewsDetailsScreen(),
         },
         theme: ThemeData(
-          accentColor: Colors.white,
+          accentColor: Colors.black,
           scaffoldBackgroundColor: Color(0XFF1C1987),
         ));
   }
@@ -50,6 +51,7 @@ class _HomeState extends State<Home> {
   final tabs = [
     DashboardScreen(),
     TabbedNews(),
+    SearchPage(),
   ];
 
   Widget build(BuildContext context) {
@@ -63,9 +65,10 @@ class _HomeState extends State<Home> {
         items: <Widget>[
           Icon(MyFlutterApp.news),
           Icon(Icons.explore),
+          Icon(Icons.search)
         ],
-        animationDuration: Duration(milliseconds: 200),
-        animationCurve: Curves.bounceInOut,
+        animationDuration: Duration(milliseconds: 250),
+        animationCurve: Curves.easeInOutCirc,
         onTap: (index) {
           setState(() {
             _currentIndex = index;

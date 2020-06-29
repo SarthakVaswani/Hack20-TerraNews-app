@@ -1,9 +1,6 @@
 import 'package:hack20/screens/firstPage.dart';
 
-import '../home.dart';
-
 import 'package:flutter/material.dart';
-import 'package:hack20/home.dart';
 
 class TabbedNews extends StatefulWidget {
   @override
@@ -14,7 +11,7 @@ class _TabbedNewsState extends State<TabbedNews> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(3.0),
+      padding: const EdgeInsets.all(5.0),
       child: Card(
         color: Color(0XFFE3E4EE),
         shape: RoundedRectangleBorder(

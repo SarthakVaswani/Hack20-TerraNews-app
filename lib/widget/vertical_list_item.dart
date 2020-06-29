@@ -57,7 +57,7 @@ class VerticalListItem extends StatelessWidget {
                         Text(
                           newsData[index].title,
                           style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 17,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -92,15 +92,17 @@ class VerticalListItem extends StatelessWidget {
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Container(
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(10),
                     child: Image.asset(
                       'images/covid.jpg',
+                      fit: BoxFit.cover,
                     ),
                   ),
+                  height: 100,
+                  width: double.infinity,
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(

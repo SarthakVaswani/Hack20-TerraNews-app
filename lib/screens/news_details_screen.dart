@@ -49,7 +49,7 @@ class NewsDetailsScreen extends StatelessWidget {
             Text(
               routeArgs['title'],
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 40,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 2,
               ),
@@ -61,7 +61,7 @@ class NewsDetailsScreen extends StatelessWidget {
             Text(
               routeArgs['fulldescription'],
               style: TextStyle(
-                fontSize: 15.0,
+                fontSize: 20.0,
                 height: 1.3,
                 letterSpacing: 1.5,
               ),
