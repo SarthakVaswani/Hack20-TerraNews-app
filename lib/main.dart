@@ -64,8 +64,14 @@ class _HomeState extends State<Home> {
         height: 50,
         items: <Widget>[
           Icon(MyFlutterApp.news),
-          Icon(Icons.explore),
-          Icon(Icons.search)
+          Icon(
+            Icons.explore,
+            size: 29,
+          ),
+          Icon(
+            Icons.search,
+            size: 27,
+          )
         ],
         animationDuration: Duration(milliseconds: 250),
         animationCurve: Curves.easeInOutCirc,
