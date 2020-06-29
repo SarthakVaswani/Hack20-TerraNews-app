@@ -33,12 +33,25 @@ class _TrendingState extends State<Trending> {
                 padding: const EdgeInsets.only(
                     left: 12.0, right: 12.0, top: 30.0, bottom: 8.0),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: <Widget>[],
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: <Widget>[
+                    GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          Navigator.pop(context);
+                        });
+                      },
+                      child: Icon(
+                        Icons.arrow_back,
+                        color: Colors.white,
+                        size: 60,
+                      ),
+                    )
+                  ],
                 ),
               ),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 20.0),
+                padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 20),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
