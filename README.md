@@ -1,16 +1,5 @@
-# hack20
+# TerraNews # hack20 
+App with futuristic UI to remind us about all hardships we have faced during the Few years and escpecially during this Lockdown and learn.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## About the App
+The Problems should teach us to be better Humans and save our Mother Earth.We have Used Curved bottom Navigation Bar Package,Custom Icons used News Articles taken from verified Sources,Used Card Scroll widget. The Futuristic and Beautiful UI provides a seamless User Experience. Since this is a prototype, For the actual App we plan to use News API like OpenNews API etc for fetching real time news Data.Terra News Reminds of the Disasters Natural and manmade etc, that we should not forgot and Learn
