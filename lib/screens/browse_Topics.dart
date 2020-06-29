@@ -1,5 +1,5 @@
 import 'package:hack20/screens/firstPage.dart';
-
+import 'trending.dart';
 import 'package:flutter/material.dart';
 
 class TabbedNews extends StatefulWidget {
@@ -46,7 +46,7 @@ class _TabbedNewsState extends State<TabbedNews> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => FirstPage(),
+                                      builder: (context) => Trending(),
                                     ),
                                   );
                                 },
@@ -88,22 +88,38 @@ class _TabbedNewsState extends State<TabbedNews> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              image: DecorationImage(
-                                  image: AssetImage('images/bush.jpg'),
-                                  fit: BoxFit.cover),
-                            ),
+                          child: GestureDetector(
+                            onTap: () {
+                              {
+                                setState(
+                                  () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => Trending(),
+                                      ),
+                                    );
+                                  },
+                                );
+                              }
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
-                                gradient: LinearGradient(
-                                  begin: Alignment.bottomRight,
-                                  colors: [
-                                    Colors.black.withOpacity(.4),
-                                    Colors.black.withOpacity(.2),
-                                  ],
+                                image: DecorationImage(
+                                    image: AssetImage('images/bush.jpg'),
+                                    fit: BoxFit.cover),
+                              ),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                    begin: Alignment.bottomRight,
+                                    colors: [
+                                      Colors.black.withOpacity(.4),
+                                      Colors.black.withOpacity(.2),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
@@ -123,22 +139,38 @@ class _TabbedNewsState extends State<TabbedNews> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              image: DecorationImage(
-                                  image: AssetImage('images/animal.jpg'),
-                                  fit: BoxFit.cover),
-                            ),
+                          child: GestureDetector(
+                            onTap: () {
+                              {
+                                setState(
+                                  () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => Trending(),
+                                      ),
+                                    );
+                                  },
+                                );
+                              }
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
-                                gradient: LinearGradient(
-                                  begin: Alignment.bottomRight,
-                                  colors: [
-                                    Colors.black.withOpacity(.4),
-                                    Colors.black.withOpacity(.2),
-                                  ],
+                                image: DecorationImage(
+                                    image: AssetImage('images/animal.jpg'),
+                                    fit: BoxFit.cover),
+                              ),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                    begin: Alignment.bottomRight,
+                                    colors: [
+                                      Colors.black.withOpacity(.4),
+                                      Colors.black.withOpacity(.2),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
@@ -158,22 +190,38 @@ class _TabbedNewsState extends State<TabbedNews> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              image: DecorationImage(
-                                  image: AssetImage('images/global.jpg'),
-                                  fit: BoxFit.cover),
-                            ),
+                          child: GestureDetector(
+                            onTap: () {
+                              {
+                                setState(
+                                  () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => Trending(),
+                                      ),
+                                    );
+                                  },
+                                );
+                              }
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
-                                gradient: LinearGradient(
-                                  begin: Alignment.bottomRight,
-                                  colors: [
-                                    Colors.black.withOpacity(.4),
-                                    Colors.black.withOpacity(.2),
-                                  ],
+                                image: DecorationImage(
+                                    image: AssetImage('images/global.jpg'),
+                                    fit: BoxFit.cover),
+                              ),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                    begin: Alignment.bottomRight,
+                                    colors: [
+                                      Colors.black.withOpacity(.4),
+                                      Colors.black.withOpacity(.2),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
@@ -193,22 +241,38 @@ class _TabbedNewsState extends State<TabbedNews> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              image: DecorationImage(
-                                  image: AssetImage('images/tsunami.jpg'),
-                                  fit: BoxFit.cover),
-                            ),
+                          child: GestureDetector(
+                            onTap: () {
+                              {
+                                setState(
+                                  () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => Trending(),
+                                      ),
+                                    );
+                                  },
+                                );
+                              }
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
-                                gradient: LinearGradient(
-                                  begin: Alignment.bottomRight,
-                                  colors: [
-                                    Colors.black.withOpacity(.4),
-                                    Colors.black.withOpacity(.2),
-                                  ],
+                                image: DecorationImage(
+                                    image: AssetImage('images/tsunami.jpg'),
+                                    fit: BoxFit.cover),
+                              ),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                    begin: Alignment.bottomRight,
+                                    colors: [
+                                      Colors.black.withOpacity(.4),
+                                      Colors.black.withOpacity(.2),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
@@ -228,22 +292,38 @@ class _TabbedNewsState extends State<TabbedNews> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              image: DecorationImage(
-                                  image: AssetImage('images/earthquake.jpg'),
-                                  fit: BoxFit.cover),
-                            ),
+                          child: GestureDetector(
+                            onTap: () {
+                              {
+                                setState(
+                                  () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => Trending(),
+                                      ),
+                                    );
+                                  },
+                                );
+                              }
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
-                                gradient: LinearGradient(
-                                  begin: Alignment.bottomRight,
-                                  colors: [
-                                    Colors.black.withOpacity(.4),
-                                    Colors.black.withOpacity(.2),
-                                  ],
+                                image: DecorationImage(
+                                    image: AssetImage('images/earthquake.jpg'),
+                                    fit: BoxFit.cover),
+                              ),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                    begin: Alignment.bottomRight,
+                                    colors: [
+                                      Colors.black.withOpacity(.4),
+                                      Colors.black.withOpacity(.2),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),

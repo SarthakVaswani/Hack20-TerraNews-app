@@ -55,6 +55,12 @@ flutter:
     - images/earthquake.jpg
     - images/global.jpg
     - images/animal.jpg
+    - images/ebola1.png
+    - images/tigers.jpg
+    - images/eco.jpg
+    - images/cc.jpg
+    - images/us.jpeg
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
