@@ -51,6 +51,10 @@ flutter:
     - images/covid.jpg
     - images/ebola.jpg
     - images/bush.jpg
+    - images/tsunami.jpg
+    - images/earthquake.jpg
+    - images/global.jpg
+    - images/animal.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
